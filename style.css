@@ -56,6 +56,18 @@ body {
 }
 
 /* Inside the hero banner */
+.mobile-friendly-h1 {
+    font-size: 36px; /* Set font size for desktop screens */
+    margin: 20px 0; /* Add margin for spacing */
+  }
+  
+  /* For mobile screens */
+  @media only screen and (max-width: 600px) {
+    .mobile-friendly-h1 {
+      font-size: 24px; /* Reduce font size for mobile screens */
+      margin: 10px 0; /* Adjust margin for mobile screens */
+    }
+  }
 .hero-content {
     color: #f6f5e8;
 }
