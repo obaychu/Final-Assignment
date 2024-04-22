@@ -1,0 +1,161 @@
+.container {
+    display: flex;
+    gap: 10px;
+    gap: 10px 20px; /* row-gap column gap */
+    row-gap: 10px;
+    column-gap: 20px;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  
+  }
+  
+  nav {
+    background: rgb(238, 234, 246);
+    height: 80px;
+    width: 100%;
+    float: right;
+    margin-right: 20px;
+    text-align: center; /* Center the content horizontally */
+  }
+  nav ul {
+    display: inline-block;
+    line-height: 80px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  nav a {
+    color: rgb(5, 10, 105);
+    font-size: 17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 10px 15px; /* Adding padding for better spacing */
+  }
+  
+  nav a:hover {
+    background: rgba(133, 27, 255, 0.5);
+    transition: 0.5s;
+  }
+  h1 {
+    border-block-end-style: solid;
+    border-block-end-color: rgb(235, 236, 248);
+    font-family: Merriweather;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    margin-left: 850px;
+    font-size: 60px;
+  }
+  h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: 500px;
+    margin-left: 40px;
+    font-size: 30px;
+  }
+  h3 {
+    border: 2px solid rgb(0, 0, 0);
+    outline: #eeeaf1 solid 5px;
+    margin: auto;  
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  h6 {
+    margin-right: 50px;
+    margin-left: 40px;
+    font-size: 20px;
+  
+  }
+  
+  body {
+      background-color: rgb(220, 217, 245);
+      font-family: Montserrat;
+      letter-spacing: 3px;
+      
+    }
+      
+      p {
+          margin-top: 25px;
+          margin-bottom: 25px;
+          margin-right: 70px;
+          margin-left: 40px;
+        }
+        
+        
+  table {
+      margin-top: 25px;
+      margin-bottom: 70px;
+      margin-right: 500px;
+      margin-left: 600px;
+    }
+  
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  
+  figcaption p {
+      margin-top: 50px;
+      margin-bottom: 25px;
+      margin-right: 50px;
+      margin-left: 40px;
+    }
+    figcaption {
+      text-align: center;
+      margin-top: 10px;
+      font-style: italic;
+  }
+  
+  
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: 500px;
+    margin-left: 400px;
+    }
+  
+   .links-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 20vh; 
+   margin: 10px 0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+          
+   /* HEADER */
+  .Fashion{
+   align-self: center; }
+   h4 {
+    font-size: 30px;
+  }
+  /* styles.css */
+  .resized-image {
+    width: 300px;
+    height: 200px;
+  }
+  .move-right {
+    padding-left: 675px;
+  }
+ 
