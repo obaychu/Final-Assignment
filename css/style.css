@@ -45,7 +45,7 @@ body {
 
 /* Hero banner */
 .hero-banner {
-    background-image: url('Dune.jpg');
+    background-image: url('../Assets/Dune.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh; /* Adjust the height of the hero banner as needed */
